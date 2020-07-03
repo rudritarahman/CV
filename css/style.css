@@ -1,0 +1,178 @@
+/* primary_color: #182C61
+secondary_color: #3a5395 */
+
+.container {
+	display: grid;
+	grid-template-columns: 45% auto;
+	grid-template-rows: auto;
+	padding: 2.3em;
+	background: #ED4264;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FFEDBC, rgb(239, 112, 137));
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FFEDBC, rgb(239, 112, 137));
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.top_item,
+.bottom-item {
+	background-color: #fff;
+}
+
+/* anchor tag start */
+a {
+	text-decoration: none;
+}
+
+/* anchor tag end */
+
+/* head part start */
+.head {
+	text-transform: uppercase;
+	color: #182C61;
+
+}
+
+/* head part end */
+
+/* sub-head part start */
+.sub-head {
+	text-transform: uppercase;
+	color: #3a5395;
+	line-height: 0.3em;
+}
+
+/* sub-head part end */
+
+/* paragraph part start */
+.paragraph {
+	line-height: 0.6em;
+}
+
+/* paragraph part end */
+
+/* list part start */
+.list {
+	line-height: 1.5em;
+}
+
+/* list part end */
+
+/* position part start */
+.position {
+	margin: -0.8em 6em 0 0;
+}
+
+/* position part end */
+
+
+/* border__bottom part start */
+.border__bottom {
+	border-bottom: 5px solid #ED4264;
+}
+
+/* border__bottom part end */
+
+/* top part start */
+
+/* top_img part start */
+.top_img {
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	padding: 1em 0;
+}
+
+.top_img > img {
+	border-radius: 50%;
+	border: 2px solid #ED4264;
+}
+
+/* top_img part end */
+
+/* top_inner part start */
+.top_inner > hr {
+	margin-right: 15em;
+}
+
+/* top_inner part end */
+
+/* email part start */
+.email {
+	color: #182C61;
+	font-weight: 700;
+	background: #FFEDBC;
+	padding: 0.5em 1em;
+	line-height: 2em;
+}
+
+/* email part end */
+
+/* hire part start */
+.hire {
+	color: #000000;
+	font-weight: 700;
+	background: #f5f5f5;
+	padding: 0.5em 1em;
+	margin-left: 1em;
+}
+
+.hire:hover {
+	color: #ffffff;
+	background: #ED4264;
+	transition: all linear .3s;
+}
+
+/* hire part end */
+
+/* top part end */
+
+/* bottom part start */
+.bottom {
+	margin-top: 3em;
+}
+
+.left_bottom {
+	padding: 0 2em 0.7em;
+	border-right: 2px dashed #ED4264;
+}
+
+.right_bottom {
+	padding: 0 2em;
+}
+
+.space {
+	padding-top: 1.2em;
+}
+
+/* skills part start */
+.skill {
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 1em;
+	color: black;
+}
+
+.skill_html {
+	width: 80%;
+	background-color: #4CAF50;
+}
+
+.skill_css {
+	width: 70%;
+	background-color: #2196F3;
+}
+
+.skill_js {
+	width: 55%;
+	background-color: #f44336;
+}
+
+.skill_php {
+	width: 40%;
+	background-color: #fff500;
+}
+
+/* skills part end */
+
+/* bottom part end */
